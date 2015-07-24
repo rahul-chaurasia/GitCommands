@@ -51,3 +51,17 @@ $ git remote set-url origin git$github.com
 #We can find the ssh clone url in the right pane of our repository
 
 ```
+
+###  Working together from the perspective of the person that doesn't have the main repo
+
+``` sh
+
+# Fork the repo you want to work on
+
+$git clone https://github.com/yourUsername/yourReponame.git
+
+# change it and push it
+
+# if you want to change the original one, then generate a pull request.
+
+``` 
