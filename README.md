@@ -31,6 +31,9 @@ $ git push -u origin master
 ``` sh
 $ git add .
 
+$ git add -u 
+# When you have deleted a local file you want to remove from your repo
+
 $ git commit -m “what has changed”
 
 $ git push # ( because I used -u last time)  OR git push origin master
