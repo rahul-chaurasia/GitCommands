@@ -38,3 +38,13 @@ $ git push # ( because I used -u last time)  OR git push origin master
 # Enter your username and your password.
 
 ```
+
+### No more username and input for every push
+
+``` sh
+
+$ git remote set-url origin git$github.com
+:yourUsername/yourRepoName.git
+#We can find the ssh clone url in the right pane of our repository
+
+```
