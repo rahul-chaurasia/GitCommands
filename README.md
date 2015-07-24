@@ -10,7 +10,7 @@ $ git init
 $ git add README.md
 # add the files you want to the staging area.
 
-$ git commit -m "first commit
+$ git commit -m "first commit"
 # Commit the changes you made.
 
 $ git remote add origin https://github.com/ramanbanka/GitCommands.git
