@@ -60,4 +60,8 @@ $ git remote set-url origin git$github.com
 
 $git clone https://github.com/yourUsername/yourReponame.git
 
+# change it and push it
+
+# if you want to change the original one, then generate a pull request.
+
 ``` 

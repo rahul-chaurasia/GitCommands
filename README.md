@@ -65,3 +65,10 @@ $git clone https://github.com/yourUsername/yourReponame.git
 # if you want to change the original one, then generate a pull request.
 
 ``` 
+
+
+### Modify offline copy when online copy is already modified
+
+``` sh
+$ git pull
+```
