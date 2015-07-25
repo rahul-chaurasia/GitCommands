@@ -121,6 +121,8 @@ $ git checkout oldBranchName
 
 $ git merge newBranchName
 
+$ git push origin oldBRanchName
+
 ```
 
 ##### Deleting a branch
