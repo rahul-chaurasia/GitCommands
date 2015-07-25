@@ -72,3 +72,12 @@ $git clone https://github.com/yourUsername/yourReponame.git
 ``` sh
 $ git pull
 ```
+
+### Want to remove a file from online github repo but keep it locally
+
+``` sh
+$ git rm --cached localfilename
+
+# add localfilename to .gitignore file & then commit these changes
+
+```
