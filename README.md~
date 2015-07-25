@@ -99,7 +99,7 @@ $ git push -f origin HEAD^^^: branchNameToUndoLast3Pushes
 ### Branch Commands
 
 ```
-
+##### Creating a  new branch
 $ git branch # list all branches in working folder
 
 $ git branch newBranchName
@@ -107,6 +107,13 @@ $ git branch newBranchName
 $ git checkout newBranchName # Switch to branch newBranchName
 
 $ git push origin newBranchName # adds new branch to github repo
+
+##### Merging new branch to old branch
+$ git checkout oldBranchName
+
+$ git merge newBranchName
+
+##### Deleting a branch
 
 $ git branch -d branchNameTodelete # Delete branch while you are at a different branch
 ```
