@@ -81,3 +81,17 @@ $ git rm --cached localfilename
 # add localfilename to .gitignore file & then commit these changes
 
 ```
+
+### Commands for fixing problems
+
+``` sh
+
+# undo multiple commits
+
+$ git reset --hard commitSHA###...= changes staging index and local folder to match online repository commit.
+
+#removing 3 commits from online github repo
+
+$ git push -f origin HEAD^^^: branchNameToUndoLast3Pushes
+
+```
