@@ -95,3 +95,18 @@ $ git reset --hard commitSHA###...= changes staging index and local folder to ma
 $ git push -f origin HEAD^^^: branchNameToUndoLast3Pushes
 
 ```
+
+### Branch Commands
+
+```
+
+$ git branch # list all branches in working folder
+
+$ git branch newBranchName
+
+$ git checkout newBranchName # Switch to branch newBranchName
+
+$ git push origin newBranchName # adds new branch to github repo
+
+$ git branch -d branchNameTodelete # Delete branch while you are at a different branch
+```
